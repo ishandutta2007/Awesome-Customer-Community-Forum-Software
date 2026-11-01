@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-Community-Forum-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Community-Forum-Software?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Community-Forum-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Community-Forum-Software?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Community-Forum-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Community-Forum-Software?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Community-Forum-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -59,11 +59,11 @@ The global customer community and forum software market is estimated at **$1.8B 
 
 ## 💻 Open-Source GitHub Projects
 
-The open-source community forum landscape is exceptionally mature. Projects range from battle-tested bulletin boards and real-time discussion engines to federated social spaces and developer Q&A portals. Below are the leading open-source options, ranked by GitHub stars.
+The open-source community forum landscape is exceptionally mature. Projects range from battle-tested bulletin boards and real-time discussion engines to federated social spaces and developer Q&A portals. Below are the leading open-source options, ranked by GitHub_Stars.
 
 ### Top Open-Source Community & Forum Platforms (Sorted by Stars)
 
-- **[Discourse](https://github.com/discourse/discourse)** [![GitHub stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) `GPL-2.0`  
+- **[Discourse](https://github.com/discourse/discourse)** [![GitHub_Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) `GPL-2.0`  
   **The industry standard for self-hosted community forums** — battle-tested by Docker, Figma, Mozilla, Rust, and the BBC.  
   - **Features**: Trust-level gamification system, built-in chat alongside threaded topics, granular moderation queues, rich markdown/text editor, Akismet anti-spam, incoming email replies, and 200+ modular plugins.  
   - **Tech Stack**: Ruby on Rails, PostgreSQL, Redis, Sidekiq, Ember.js.  
@@ -71,7 +71,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Requires dedicated server resources (2 GB RAM minimum, 4 GB recommended); mandatory working SMTP server.  
   - **Best for**: Established companies, open-source projects, and developer communities requiring enterprise moderation, SSO (SAML/OIDC), and rock-solid SEO.
 
-- **[Forem](https://github.com/forem/forem)** [![GitHub stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers) `AGPL-3.0`  
+- **[Forem](https://github.com/forem/forem)** [![GitHub_Stars](https://img.shields.io/github/stars/forem/forem?style=social&color=white)](https://github.com/forem/forem/stargazers) `AGPL-3.0`  
   **Open-source software powering inclusive, creator-led communities** — original codebase backing the DEV Community (`dev.to`).  
   - **Features**: Rich article publishing, threaded discussions, podcast/video hosting, customizable tags, badges, and built-in community moderation tools.  
   - **Tech Stack**: Ruby on Rails, PostgreSQL, Redis, Elasticsearch, Preact.  
@@ -79,7 +79,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Heavy infrastructure footprint geared toward publishing/content ecosystems rather than concise Q&A ticket resolution.  
   - **Best for**: Content-driven developer communities, technical media publications, and multi-author blogging platforms.
 
-- **[Flarum](https://github.com/flarum/flarum)** [![GitHub stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers) `MIT`  
+- **[Flarum](https://github.com/flarum/flarum)** [![GitHub_Stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers) `MIT`  
   **Delightfully modern, lightweight forum software** — fast, responsive, and designed for speed with minimal overhead.  
   - **Features**: Infinite scrolling, floating composer, real-time notifications, mobile gestures, and an ultra-extensible "everything is an extension" plugin architecture.  
   - **Tech Stack**: PHP (Laravel components), Mithril.js, MySQL / MariaDB.  
@@ -87,7 +87,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Single-level threading without deep reply nests; smaller extension ecosystem than Discourse; no native out-of-the-box chat without third-party extensions.  
   - **Best for**: Small-to-medium communities (under 5,000 DAU) seeking an elegant, lightning-fast forum on budget-friendly hosting.
 
-- **[Apache Answer](https://github.com/apache/answer)** [![GitHub stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) `Apache-2.0`  
+- **[Apache Answer](https://github.com/apache/answer)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) `Apache-2.0`  
   **Open-source Q&A community and knowledge-base software** — built under the Apache Software Foundation for technical Q&A hubs.  
   - **Features**: StackOverflow-style question-and-answer workflows, upvoting/downvoting, reputation score system, answer acceptance, badges, SEO optimization, and multilingual support.  
   - **Tech Stack**: Go (Golang), React, SQLite/MySQL/PostgreSQL.  
@@ -95,7 +95,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Focused strictly on Q&A and knowledge sharing; lacks traditional open-ended threaded discussions or real-time social feeds.  
   - **Best for**: Developer support portals, internal engineering knowledge bases, and customer product troubleshooting forums.
 
-- **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers) `GPL-3.0`  
+- **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub_Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers) `GPL-3.0`  
   **Real-time Node.js forum platform built for the modern web** — WebSocket-first architecture delivering instantaneous updates without page refreshes.  
   - **Features**: Instant live notifications, streaming post updates, user presence ("who's online"), built-in direct messaging, karma/reputation system, and REST/WebSocket APIs for custom app embedding.  
   - **Tech Stack**: Node.js, MongoDB (or PostgreSQL/Redis), WebSockets.  
@@ -103,7 +103,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: MongoDB operational overhead; default themes require customization to feel distinct; real-time sync can demand tuning under high-latency mobile networks.  
   - **Best for**: Gaming communities, live developer discussions, and tech products wanting real-time interaction on a pure JavaScript/TypeScript stack.
 
-- **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers) `AGPL-3.0`  
+- **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub_Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers) `AGPL-3.0`  
   **Federated link aggregator and discussion platform for the Fediverse** — decentralized alternative to Reddit powered by ActivityPub.  
   - **Features**: Cross-server federation via ActivityPub, community sub-forums, voting, nested comments, cross-posting, and mobile client support (Voyager, Boost, Sync).  
   - **Tech Stack**: Rust, Actix-web, PostgreSQL, Inferno.  
@@ -111,7 +111,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Federation architecture is complex to administer; designed for public decentralized networks rather than private, brand-locked customer communities.  
   - **Best for**: Decentralized open-web networks, privacy-conscious interest groups, and communities resistant to single-platform ownership.
 
-- **[HumHub](https://github.com/humhub/humhub)** [![GitHub stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers) `AGPL-3.0`  
+- **[HumHub](https://github.com/humhub/humhub)** [![GitHub_Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers) `AGPL-3.0`  
   **Flexible open-source social network kit and intranet software** — tailored for corporate communities, alumni hubs, and collaborative spaces.  
   - **Features**: Activity streams, custom spaces, member directories, file sharing, calendar integration, polls, wikis, and enterprise LDAP/SAML integration.  
   - **Tech Stack**: PHP (Yii 2 framework), MySQL / MariaDB, Vue.js.  
@@ -119,7 +119,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Structured more like Facebook Groups or Yammer than a technical forum or linear support bulletin board.  
   - **Best for**: Educational institutions, corporate intranets, nonprofit alumni networks, and collaborative team workspaces.
 
-- **[phpBB](https://github.com/phpbb/phpbb)** [![GitHub stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers) `GPL-2.0`  
+- **[phpBB](https://github.com/phpbb/phpbb)** [![GitHub_Stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers) `GPL-2.0`  
   **The legendary grandfather of bulletin boards** — reliable, hyper-stable flat-file forum engine with over two decades of production deployment.  
   - **Features**: Deep category and subforum hierarchies, fine-grained ACL permissions, attachment managers, extensive bbCode formatting, and thousands of community styles/modifications.  
   - **Tech Stack**: PHP, MySQL / MariaDB / PostgreSQL / SQLite.  
@@ -127,7 +127,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Traditional 2000s forum UX requiring full page refreshes; lacks modern real-time interactions and mobile-first gestures without heavy modding.  
   - **Best for**: Classic hobbyist boards, retro enthusiasts, and low-spec shared hosting environments where rock-solid reliability is paramount.
 
-- **[Coral Talk](https://github.com/coralproject/talk)** [![GitHub stars](https://img.shields.io/github/stars/coralproject/talk?style=social&color=white)](https://github.com/coralproject/talk/stargazers) `Apache-2.0`  
+- **[Coral Talk](https://github.com/coralproject/talk)** [![GitHub_Stars](https://img.shields.io/github/stars/coralproject/talk?style=social&color=white)](https://github.com/coralproject/talk/stargazers) `Apache-2.0`  
   **Open-source journalism commenting and community moderation platform** — created by Vox Media and used by newsrooms worldwide.  
   - **Features**: Real-time comment streams, smart automated moderation (Perspective API integration), toxic comment filters, badge verification, and journalist Q&A mode.  
   - **Tech Stack**: TypeScript, Node.js, GraphQL, MongoDB, Redis.  
@@ -135,7 +135,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Designed as an embedded commenting widget on articles and blogs rather than a standalone standalone multi-category forum.  
   - **Best for**: News organizations, media publications, and editorial platforms looking for high-trust user discussions.
 
-- **[Talkyard](https://github.com/debiki/talkyard)** [![GitHub stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers) `AGPL-3.0`  
+- **[Talkyard](https://github.com/debiki/talkyard)** [![GitHub_Stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers) `AGPL-3.0`  
   **Unified discussion software combining Slack, StackOverflow, Discourse, and Reddit** — all-in-one community conversation hub.  
   - **Features**: Question-and-answer topics with solution verification, nested discussions, embedded blog commenting, team chat rooms, and spam protection.  
   - **Tech Stack**: Scala, React, PostgreSQL, Redis, OpenResty.  
@@ -143,7 +143,7 @@ The open-source community forum landscape is exceptionally mature. Projects rang
   - **Trade-off**: Scala backend requires familiarity; smaller developer contributor base compared to mainstream Node or Ruby ecosystems.  
   - **Best for**: Companies seeking a single platform that handles both Q&A support and casual conversational chat without tool fragmentation.
 
-- **[MyBB](https://github.com/mybb/mybb)** [![GitHub stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers) `LGPL-3.0`  
+- **[MyBB](https://github.com/mybb/mybb)** [![GitHub_Stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers) `LGPL-3.0`  
   **Free, intuitive, and extensible open-source bulletin board package** — modern evolution of traditional forum architecture.  
   - **Features**: Inline moderation, private messaging, reputation and warning systems, custom profile fields, thread subscriptions, and plugin hook system.  
   - **Tech Stack**: PHP, MySQL / PostgreSQL / SQLite.  
@@ -185,7 +185,7 @@ Contributions are welcome! Please follow these guidelines:
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a new branch: `git checkout -b feature/add-new-platform`.
-3. 📝 Add your entry under the appropriate section following the existing markdown schema. Ensure links, license information, tech stack, and GitHub star badges are accurate.
+3. 📝 Add your entry under the appropriate section following the existing markdown schema. Ensure links, license information, tech stack, and GitHub Stars_Badges are accurate.
 4. 🚀 Submit a Pull Request with a concise summary of the addition.
 
 ---
