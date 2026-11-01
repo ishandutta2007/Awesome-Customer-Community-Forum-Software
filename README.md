@@ -32,61 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global customer community and forum software market is estimated at **$1.8B to $2.4B** (scaling toward **$6.0B+** at ~11–13% CAGR), driven by enterprise support deflection and community-led retention strategies. The market is **moderately fragmented** rather than winner-take-all: enterprise CRM suites and private equity-backed platforms (e.g., Khoros, Higher Logic) coexist alongside fast-growing self-serve creator/community hubs (Circle, Mighty Networks) and mature, self-hosted open-source standards.
 
 ## SaaS/Hosted Platforms
 
+| Platform | Revenue / Valuation (Company Size) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description & Target Audience |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Khoros](https://khoros.com/)** | **~$250M ARR** (Acquired by IgniteTech; $125M+ raised) | Starts at **$50,000/year** (median enterprise contract **$164,649/year**; custom enterprise quotes) | **No open self-serve trial** (sales-led pilot/proof-of-concept provisioned on contract approval) | Enterprise customer engagement & social care suite. Built for global brands needing advanced moderation, CRM workflows, and support deflection. |
+| **[Higher Logic Vanilla](https://www.higherlogic.com/)** | **~$50M–$70M ARR** ($55M PE round from JMI Equity) | Starts at **$24,000/year** ($2,000/month equivalent, billed annually) | **No standard self-serve trial** (sales-guided sandbox/demo environment after consultation) | Enterprise-grade cloud community forum and knowledge hub with heavy CRM/AMS integrations and enterprise permissions. |
+| **[Hivebrite](https://hivebrite.io/)** | **~$21M ARR** ($58.9M total funding; $37M Series B) | Starts at **$8,000/year** (Focus Plan; billed annually) | **No self-serve free trial** (sales-led product demo and custom-scoped evaluation instance) | White-label community management platform tailored for alumni networks, professional associations, and corporate membership hubs. |
+| **[Circle](https://circle.so/)** | **$200M–$250M Valuation** ($30M+ funding; profitable) | Starts at **$89/month** (billed annually) or **$99/month** (monthly billing, Professional Plan) | **14-day free trial** (full access to core Professional/Business features, no credit card required) | All-in-one community and digital business platform integrating discussions, courses, live events, paywalls, and member chat. |
+| **[Mighty Networks](https://www.mightynetworks.com/)** | **$200M Valuation** (~$67M funding; ~$10M–$35M ARR) | Starts at **$79/month** (billed annually, Launch Plan; or $179/month for Scale Plan) | **14-day free trial** (full access to Growth Plan features including live streaming & courses, no credit card required) | Community platform for creator businesses and networks featuring rich multimedia feeds, online courses, and event livestreaming. |
+| **[Bettermode](https://bettermode.com/)** | **~$3.1M ARR** ($7.5M Seed funding) | Starts at **$149/month** (billed annually) or **$199/month** (monthly billing, Starter Plan) | **Free tier available**: up to **100 members, 20 spaces, 3 collaborators, 1 GB storage, 1,000 email credits/mo** (with Bettermode branding) | Modular, customizable customer community platform with embeddable widgets, knowledge base, discussions, and idea exchanges. |
 
-
-- **[Bettermode](https://bettermode.com/)**
-
-  **All-in-one community platform** with spaces, discussions, events, and member management. **Pricing**: **Free tier** includes **100 members, 20 spaces, 3 collaborators, 1 GB storage, 1,000 email credits**, and Bettermode branding . Paid plans from **$59/month**; Software Advice lists starting at **$399/month** for higher tiers . **Free tier**: Yes, 100 members / 20 spaces / 1 GB. **Best for**: small teams wanting a hosted community with a genuine free tier—**trade-off**: branding and member limits require upgrade.
-
-
-
-- **[Circle](https://circle.so/)**
-
-  **All-in-one community and digital business platform** with courses, events, and payments. **Pricing**: **Professional $89/month** (annual); **Business $199/month**; higher tiers at **$419/month** . **Free tier**: **No free tier**—14-day trial available. **Best for**: creators and businesses wanting community, courses, and payments in one platform—**trade-off**: no free tier; pricing scales with features.
-
-
-
-- **[Mighty Networks](https://www.mightynetworks.com/)**
-
-  **Community platform with courses, events, and memberships**. **Pricing**: **Scale Plan $179/month** (annual) or **$215/month** (monthly) includes **5 Hosts, 15 Moderators, 500 GB storage, 30 hours/month livestreaming** . **Growth Plan $354/month** (annual) includes **10 Hosts, 100 Moderators, 1 TB storage, 40 hours/month livestreaming** . **Free tier**: **14-day free trial of Growth Plan**—no permanent free tier. **Best for**: creators wanting a branded community with courses and livestreaming—**trade-off**: premium pricing for smaller communities.
-
-
-
-- **[Hivebrite](https://hivebrite.io/)**
-
-  **Enterprise community management** platform for alumni, associations, and organizations. **Pricing**: **Focus Plan starts at $8,000/year** (annual, unlimited members, 1 admin seat, AI search/recommendations, MCP) . Branded mobile app adds **$2,300/year**. **Free tier**: **No free tier**. **Best for**: organizations needing a full-featured, white-labeled community hub with member directory and events—**trade-off**: $8K annual minimum.
-
-
-
-- **[Higher Logic Vanilla](https://www.higherlogic.com/)**
-
-  **Enterprise community forum** platform. **Pricing**: **Starting at $24,000/year** per Software Advice . **Free tier**: **No free tier**; free trial available . **Best for**: enterprises wanting a mature, hosted forum with community management—**trade-off**: enterprise pricing; no self-serve.
-
-
-
-- **[Khoros](https://khoros.com/)**
-
-  **Enterprise social media management and community platform**. **Pricing**: **Fully custom quotes**; **no pricing page, no free tier, no trial** . Vendr median contract **$164,649/year** (range $52,843–$258,854) . Implementation **$10,000–$100,000+** . **Free tier**: **None**. **Best for**: large enterprises needing integrated social care and community—**trade-off**: six-figure commitments; sales-only engagement.
-
-
-
-- **[HubSpot Community](https://community.hubspot.com/)** (**Not a vendor product**)
-
-  **HubSpot's own customer community** running on their platform. **Note**: This is HubSpot's own community forum, not a software product available for purchase. HubSpot does not sell a standalone community platform; users seeking community software must evaluate third-party options. **Best for**: reference for community design—not a purchasable platform.
-
-
+> [!NOTE]
+> **HubSpot Community** is HubSpot's proprietary customer community forum rather than a commercial software product sold to external customers, and is therefore omitted from evaluable SaaS vendor comparisons.
 
 ## Open-Source GitHub Projects
 
