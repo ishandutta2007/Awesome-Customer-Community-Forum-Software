@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a0f1d" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="80%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowIndigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.35" />
+      <circle cx="40" cy="0" r="1.5" fill="#64748b" fill-opacity="0.3" />
+    </pattern>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 42px; font-weight: 800; letter-spacing: -0.5px; }
+      .subtitle-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; fill: #94a3b8; }
+      .pill-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #cbd5e1; }
+      
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-12px) scale(1.03); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(10px) scale(0.97); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.55; transform: scale(1.15); }
+      }
+      @keyframes shimmer {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 80; }
+      }
+
+      .floating-orb-1 { animation: floatSlow 8s ease-in-out infinite; transform-origin: center; }
+      .floating-orb-2 { animation: floatReverse 9s ease-in-out infinite; transform-origin: center; }
+      .pulsing-glow { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .shimmer-line { stroke-dasharray: 6 6; animation: shimmer 4s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glows (strictly background behind cards/text) -->
+  <circle class="pulsing-glow" cx="150" cy="100" r="180" fill="url(#glowCyan)" />
+  <circle class="floating-orb-1" cx="1020" cy="90" r="220" fill="url(#glowPurple)" />
+  <circle class="floating-orb-2" cx="600" cy="380" r="200" fill="url(#glowIndigo)" />
+
+  <!-- Grid overlay -->
+  <rect width="1200" height="420" rx="16" fill="url(#grid)" />
+
+  <!-- Decorative dynamic cyber circuit lines in background -->
+  <path class="shimmer-line" d="M 80 340 L 320 340 L 370 390 L 820 390 L 870 340 L 1120 340" fill="none" stroke="#475569" stroke-width="1.5" stroke-opacity="0.4" />
+  <path class="shimmer-line" d="M 120 70 L 260 70 L 300 30 L 900 30 L 940 70 L 1080 70" fill="none" stroke="#475569" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Content Container in Foreground -->
+  <g transform="translate(60, 45)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="280" height="34" rx="17" fill="#1e293b" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <circle cx="16" cy="17" r="4.5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="32" y="22" class="badge-text" fill="#38bdf8">COMMUNITY &amp; FORUM SOFTWARE</text>
+    </g>
+
+    <!-- Live indicator badge on right -->
+    <g transform="translate(900, 0)">
+      <rect width="180" height="34" rx="17" fill="#1e293b" fill-opacity="0.9" stroke="#818cf8" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="18" cy="17" r="4.5" fill="#10b981">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="34" y="22" class="badge-text" fill="#e2e8f0">OPEN CATALOG 🌟</text>
+    </g>
+
+    <!-- Main Title (Rock solid in foreground, no occlusion) -->
+    <g transform="translate(0, 75)">
+      <text x="0" y="40" class="title-text" fill="url(#titleGrad)">Awesome Customer Community</text>
+      <text x="0" y="90" class="title-text" fill="#ffffff">&amp; Forum Software</text>
+      <text x="0" y="132" class="subtitle-text">Curated guide to open-source bulletin boards, federated spaces, &amp; enterprise customer hubs</text>
+    </g>
+
+    <!-- Feature Pillars / Topic Cards -->
+    <g transform="translate(0, 245)">
+      <!-- Card 1: Self-Hosted Forums -->
+      <g transform="translate(0, 0)">
+        <rect width="250" height="64" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#38bdf8" fill-opacity="0.15" />
+        <text x="28" y="37" font-size="15" text-anchor="middle" fill="#38bdf8">💬</text>
+        <text x="54" y="28" class="pill-text" font-weight="700">Self-Hosted Forums</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94a3b8">Discourse, Flarum, NodeBB</text>
+      </g>
+
+      <!-- Card 2: Q&A & Support Hubs -->
+      <g transform="translate(275, 0)">
+        <rect width="250" height="64" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#818cf8" fill-opacity="0.15" />
+        <text x="28" y="37" font-size="15" text-anchor="middle" fill="#818cf8">💡</text>
+        <text x="54" y="28" class="pill-text" font-weight="700">Q&amp;A &amp; Knowledge</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94a3b8">Apache Answer, Talkyard</text>
+      </g>
+
+      <!-- Card 3: Social & Federated -->
+      <g transform="translate(550, 0)">
+        <rect width="250" height="64" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#c084fc" fill-opacity="0.15" />
+        <text x="28" y="37" font-size="15" text-anchor="middle" fill="#c084fc">🌐</text>
+        <text x="54" y="28" class="pill-text" font-weight="700">Social &amp; Federated</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94a3b8">Lemmy, Forem, HumHub</text>
+      </g>
+
+      <!-- Card 4: Enterprise Hubs -->
+      <g transform="translate(825, 0)">
+        <rect width="255" height="64" rx="12" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#f472b6" fill-opacity="0.15" />
+        <text x="28" y="37" font-size="15" text-anchor="middle" fill="#f472b6">🏢</text>
+        <text x="54" y="28" class="pill-text" font-weight="700">Enterprise Platforms</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94a3b8">Khoros, Vanilla, Hivebrite</text>
+      </g>
+    </g>
+  </g>
+</svg>
